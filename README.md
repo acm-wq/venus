@@ -16,7 +16,7 @@ sudo pacman -S ffmpeg
 ## Installation
 
 ```bash
-gem install venus
+gem install venus_video
 ```
 
 ## Usage
@@ -51,5 +51,3 @@ my_video = Venus::SplitVideo.process_arguments("name_video.mp4 name_result sek 3
 Venus::SplitVideo.split_video(*my_video, format_video: "1..3")
 
 ```
-
-## 
