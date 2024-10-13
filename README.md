@@ -1,6 +1,6 @@
 ## Hi! What's that?
 
-Venus is a Ruby-hem that allows you to work with video using ffmpeg. At the moment it can split video into separate parts by specified time and format it!
+Venus is a Ruby-gem that allows you to work with video using ffmpeg. At the moment it can split video into separate parts by specified time and format it!
 
 ### Prerequisites
 
