@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'venus_video'
-  s.version     = '0.1.1' 
+  s.version     = '0.2.0' 
   s.date        = '2024-09-22'
   s.summary     = "A gem for working with video."
   s.description = "Venus is a Ruby gem that allows you to work with video using ffmpeg."
