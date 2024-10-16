@@ -50,4 +50,12 @@ Venus::SplitVideo.split_video(*my_video, format_video: "first")
 my_video = Venus::SplitVideo.process_arguments("name_video.mp4 name_result sek 300")
 Venus::SplitVideo.split_video(*my_video, format_video: "1..3")
 
+# blur video
+my_video = Venus::BlurVideo.process_arguments("name_video.mp4 name_result")
+Venus::BlurVideo.blur_video(*my_video)
+
+# join video
+my_video = Venus::JoinVideo.process_arguments("video.mp4 video.mp4 output_file")
+Venus::JoinVideo.join_video(*my_video)
+
 ```
